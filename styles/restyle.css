@@ -1,0 +1,138 @@
+/* Small devices */
+@media (max-width: 576px) { 
+  .container{
+    margin: 50px 3%;
+   }
+  header{
+    flex-direction: column;
+    padding: 0 2%;
+   }
+   .banner-info{
+    width: 100%;
+    text-align: center;
+   }
+   .banner-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   }
+   .banner-img img{
+    margin-bottom: 0px;
+   }
+   .content{
+    flex-direction: column;
+   }
+   .fixed-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-color: white;
+   }
+   .fixed-menu a{
+    border: 1px solid rgba(123, 118, 118, 0.291);
+   }
+   .transfers-sec{
+    grid-template-columns: repeat(1,1fr);
+   }
+   footer ul{
+    flex-direction: column;
+    gap: 30px;
+   }
+}
+
+/* Medium devices */
+@media (min-width: 577px) and (max-width:992px) {
+  .container{
+    margin: 50px 3%;
+   }
+  header{
+    padding: 0 2%;
+   }
+   .banner-info h1{
+    font-size: 30px;
+    line-height: 30px;
+   }
+   .banner-info p{
+    font-size: 14px;
+    line-height: 15px;
+    margin: 10px 0;
+   }
+   .banner-img img{
+    width: 90%;
+    margin-top: 65px;
+   }
+   .btn-one{
+    font-size: 14px;
+    line-height: 15px;
+   }
+   .content{
+    flex-direction: column;
+   }
+   .fixed-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-color: white;
+    margin: -50px 0;
+   }
+   .fixed-menu a{
+    border: 1px solid rgba(123, 118, 118, 0.291);
+   }
+   .fixed-menu ul{
+    flex-direction: row;
+    gap: 5px;
+    padding: 10px;
+   }
+   .fixed-menu a{
+    padding: 20px;
+    width: 220px;
+   }
+   .transfers-sec{
+    grid-template-columns: repeat(2,1fr);
+   }
+   .disable{
+    display: none;
+   }
+   .btn{
+    display: block;
+    margin: 0 auto;
+   }
+   footer{
+    display: ;
+   }
+   footer ul{
+    flex-wrap: wrap;
+    gap: 30px;
+   }
+
+ }
+
+ @media (min-width: 650px) and (max-width:992px) {
+  header{
+    padding: 0 5%;
+   }
+   .banner-info h1{
+    font-size: 40px;
+    line-height: 40px;
+   }
+   .banner-info p{
+    font-size: 14px;
+    line-height: 15px;
+    margin: 10px 0;
+   }
+ }
+
+@media (min-width: 850px) and (max-width:1192px){
+  .banner-info h1{
+    font-size: 50px;
+    line-height: 50px;
+   }
+   .banner-info p{
+    font-size: 16px;
+    line-height: 20px;
+    margin: 10px 0;
+   }
+}
+
