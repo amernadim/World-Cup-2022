@@ -106,7 +106,7 @@
   font-size: 20px;
   line-height: 30px;
  }
-
+ #active,
  .fixed-menu a:hover{
   background-color: #DD0000;
   color: white;
@@ -176,6 +176,21 @@
  }
  .btn:hover{
   background-color: #dd000085;
+ }
+
+ /* 2nd & 3rd page styles */
+ .flag{
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+ }
+ .flag img {
+   width: 40%;
+ }
+ .flag h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
  }
 
  /*---------------
