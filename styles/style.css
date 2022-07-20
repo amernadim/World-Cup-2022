@@ -68,6 +68,7 @@
  ----------------*/
 
  /* fixed-menu */
+
  .content{
   display: flex;
   gap: 20px;
@@ -122,7 +123,7 @@
  }
 
  .transfer{
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,rgba(17, 17, 26, 0.05) 0px 8px 32px;
  }
  .img-fild img{
   width: 100%;
@@ -163,6 +164,10 @@
  .info p i{
   margin-right: 8px;
  }
+/* -----------------
+    View All Button
+--------------------- */
+
  .btn{
   display: none;
   font-size: 20px;
@@ -178,7 +183,10 @@
   background-color: #dd000085;
  }
 
- /* 2nd & 3rd page styles */
+ /*-----------------------------------
+    Match & Group Match page styles
+  ------------------------------------ */
+
  .flag{
   display: flex;
   gap: 5px;

@@ -1,4 +1,7 @@
-/* Small devices */
+/*-------------------
+   Small device
+ ---------------------*/
+
 @media (max-width: 576px) { 
   .container{
     margin: 10px 3%;
@@ -41,7 +44,10 @@
    }
 }
 
-/* Medium devices */
+/* -------------------
+    Medium device
+---------------------- */
+
 @media (min-width: 577px) and (max-width:992px) {
   .container{
     margin: 50px 3%;
@@ -106,7 +112,6 @@
     flex-wrap: wrap;
     gap: 30px;
    }
-
  }
 
  @media (min-width: 650px) and (max-width:992px) {
